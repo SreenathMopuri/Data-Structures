@@ -2,12 +2,7 @@
 
 AVL tree is a self-balancing Binary Search Tree (BST) where the difference between
 Heights of left and right subtrees cannot be more than one for all nodes.
-Example:
-			   d
-       /  \
-		  b    f
-		 / \  /  \
-		a   c e   g
+
 Why AVL Trees?
 	Most of the BST operations (e.g., search, max, min, insert, delete.. etc) take O(h)
 time where h is the height of the BST. The cost of these operations mat become O(n) for
